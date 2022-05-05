@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+</head>
+<body onload="initClock()">
+    <header id="welcome-section">
+       <p id="logo">Palino.</p>
+        <nav id="navbar">
+            <ul class="navlinks">
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+        <a class="navlinks" href="#getintouch"><button>Contact</button></a>
+        <span class="openbtn" onclick="openNav()">&#9776;</span>
+    </header>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content" onclick="closeNav()">
+        <a href="#welcome-section">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#getintouch">Contact</a>
+      </div>
+    </div>
+    <main>
+     <section id="welcome-section">
+        <div class="alert">
+            <div class="closebtn" onclick="this.parentElement.style.display='none';">&times;</div>
+            <div class="text">
+            <span id="Greetings"></span>
+            <span id="dayname">Day</span>,
+            <span id="month">Month</span>
+            <span id="daynum">00</span>,
+            <span id="year">Year</span>
+            </div>
+          </div>
+            <h1 class="cover-image cover-text"><span class="highlight">Joseph Gayla<br>Palino Jr. </span>
+                <br>Computer Science Student</h1>
+            <div class="sci">
+                <a href="https://www.facebook.com/yozephnatics.ph"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a href="https:/www.instagram.com/jozefqttt_"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                <a href="https://www.github.com/Jozefqt"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-google fa-2xl"></i></a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="grid">
+                    <div class="left">
+                <img src="https://jozefqt.github.io/Jozefqt/Images/about-img.png" alt="me">
+            </div>
+                <div class="right">
+                <h4> Hi there!</h4>
+                <h1> I am Joseph!</h1> 
+                    <p>Thank you for taking time to look at my personal website! My name is Joseph Palino Jr, but I am usually called by my surname.
+                      I’m a Filipino pop music fan, a foodie, basically addicted to spicy foods, a dancer, a mobile gamer, a movie lover and a nature lover. I'm also a computer science student and AI enthusiast.</p>
+                      <br>
+                      <p>I am always up to new and exciting challenges. I love interacting random technologies but I'm more passionate with the world of Web Designing and Developing, 
+                        I learn computers very well and I want to keep on everything about computers. I do everything according to my organized work.
+                        I never escape from my tasks, whether at home or school, since I understand all my responsibilities towards myself and my family well. All my family members are broad and open-minded. They always encourage me to do well in every field.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container2 cover-image2">
+                <h2 class="section-title2">My Education</h2>
+                <div class="grid2">
+                <div class="left">
+                <h4> Hey there!</h4>
+                <h1> I'm a Computer Science Student</h1>
+                <h3> of North Luzon Philippines State College</h3>
+                <br>
+                <p>I had different ideas about what career I would pursue in the future throughout my academic life. I later decided through careful consideration that I should keep my options open. Hence choosing computer science as my career pulled me the most because of its opening, modernity, in-demand, and its many challenges.</p>
+                  <br>  
+                <p>I'm now 3rd year college and currently taking up BS in Computer Science. 
+                        I pursue to study BSCS Course in college since I find it fascinating. 
+                        I want to learn how to respond in thier language. I'm still studying HTML, CSS and Javascript since I want to pursue front-end development. Learning how to write and design program is quite challenging. 
+                        I think being able to write code is a valuable skill to have and I enjoy the challenge of working through various problems and thinking of all the possible ways to find a solution. Computers are continuous influencing the direction of our world and I want to be part of that. </p>
+                    </div>
+                    <div class="right">
+                        <img src="https://jozefqt.github.io/Jozefqt/Images/educ-img.png" alt="me">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="getintouch">
+        <div class="contact-section">
+            <h1>Contact Me</h1>
+            <div class="border"></div>
+            <form class="contact-form" action="https://formsubmit.co/60b1d8cbc53c93527d111ad3dd8c2212" method="POST">
+              <input type="text" name="name"class="contact-form-text" placeholder="Your name">
+              <input type="email" name="email" class="contact-form-text" placeholder="Your email">
+              <input type="number" name="number" class="contact-form-text" placeholder="Your phone">
+              <textarea name="message"class="contact-form-text" placeholder="Your message"></textarea>
+              <button type="submit" class="contact-btn">Send</button>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New submission!">
+            </form>
+          </div>
+        </section>
+        <section class="footer">
+            <div class="social">
+                <a href="https://www.facebook.com/yozephnatics.ph"><i class="fa-brands fa-facebook fa-s"></i></a>
+                <a href="https:/www.instagram.com/jozefqttt_"><i class="fa-brands fa-instagram fa-s"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-s"></i></a>
+                <a href="https://www.github.com/Jozefqt"><i class="fa-brands fa-github fa-s"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-s"></i></a>
+            </div>
+            <ul class="list">
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">&copy; Created by <span id="logo2">Palino</span> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; All Rights Reserved</p>
+        </section>
+    </main>
+    <script>
+      function openNav() {
+    document.getElementById("myNav").style.height = "50%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+           var myDate = new Date();
+          var hrs = myDate.getHours();
+          var greet;
+  
+          if (hrs < 12)
+              greet = 'Good Morning!';
+          else if (hrs >= 12 && hrs <= 17)
+              greet = 'Good Afternoon!';
+          else if (hrs >= 17 && hrs <= 24)
+              greet = 'Good Evening!';
+  
+          document.getElementById('Greetings').innerHTML = '<br> Hi'+'&nbsp'+ greet + '</b> Today is';
+          
+      function updateClock(){
+          var now = new Date();
+          var hou = now.getHours(),
+           dname = now.getDay(),
+           mo = now.getMonth(),
+           yr = now.getFullYear(),
+           dnum = myDate.getDate();
+  
+          if(hou == 0){
+              hou = 12;
+          }
+          if(hou > 12){
+          hou = hou - 12;
+          }
+          Number.prototype.pad = function(digits){
+              for(var n = this.toString(); n.length <digits; n= 0+n);
+              return n;
+          }
+  
+          var months =["January","February","March","April","May","June","July","August","September","October","November","December"];
+          var week =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+          var ids =["dayname","month","daynum","year"];
+          var values=[week[dname], months[mo], dnum.pad(2),yr];
+          var greet;
+          
+          for(var i=0; i < ids.length; i++)
+          document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+          }
+          function initClock(){
+              updateClock();
+              window.setInterval("updateClock()",1);
+          }
+    </script>
+</body>
+</html>
