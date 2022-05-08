@@ -465,8 +465,7 @@ color:#4b4c4d
 font-size: 18px;
 }
 .cover-image {
-  background-size: cover;
-background-attachment: scroll;
+background-size: cover;
 background-position: top;
 background-repeat: no-repeat;
   }
