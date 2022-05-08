@@ -424,7 +424,7 @@ flex-wrap: nowrap;
   font-family: 'Unna', serif;
   margin-left: 50px;
 }
-/* The close button */
+
 .closebtn {
 display: flex;
   margin-right: 30px;
@@ -464,20 +464,19 @@ color:#4b4c4d
 .sci .fa-brands{
 font-size: 18px;
 }
+.cover-image {
+  background-attachment: scroll;
+  }
 .cover-text {
-/* format welcome text */
 font-weight: 400;
 font-size: 18px;
 text-align: justify;
 line-height: 2em;
 color: rgb(206, 205, 205);
-/* position text, middle of screen, screen dimensions */
 padding: 40vh 10vh 50vh 7vh;
 font-family: 'Sarabun', sans-serif;
 }
-
 .highlight {
-/* differentiate between name and other text */
 font-size: 75px;
 font-weight: 400;
 color: white;
