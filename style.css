@@ -465,9 +465,12 @@ color:#4b4c4d;
 font-size: 18px;
 }
 .cover-image {
-background-size: cover;
-background-position: top;
-background-repeat: no-repeat;
+  /* set welcome screen */
+  background-image: url("https://jozefqt.github.io/Jozefqt/Images/main-bg.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: top;
+  background-repeat: no-repeat;
   }
 .cover-text {
 font-weight: 400;
