@@ -548,13 +548,13 @@ font-size: 20px;
 width: 35px;
 height: 35px;
 line-height: 30px;
-margin: 0 4px;
+margin: 0 5px;
   }
   .footer ul{
     font-size:small;
   }
   .footer ul li{
 display: inline-block;
-padding: 0 9px;
+padding: 0 5px;
 }
 }
