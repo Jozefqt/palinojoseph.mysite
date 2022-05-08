@@ -464,14 +464,7 @@ color:#4b4c4d;
 .sci .fa-brands{
 font-size: 18px;
 }
-.cover-image {
-  /* set welcome screen */
-  background-image: url("https://jozefqt.github.io/Jozefqt/Images/main-bg.png");
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: top;
-  background-repeat: no-repeat;
-  }
+
 .cover-text {
 font-weight: 400;
 font-size: 18px;
@@ -555,13 +548,13 @@ font-size: 20px;
 width: 35px;
 height: 35px;
 line-height: 30px;
-margin: 0 8px;
+margin: 0 4px;
   }
   .footer ul{
     font-size:small;
   }
   .footer ul li{
 display: inline-block;
-padding: 0 5px;
+padding: 0 9px;
 }
 }
