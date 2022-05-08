@@ -459,7 +459,7 @@ list-style: none;
 display: inline-block;
 transform: scale(0.6);
 transition: all 0.3s ease 0s;
-color:#4b4c4d
+color:#4b4c4d;
 }
 .sci .fa-brands{
 font-size: 18px;
