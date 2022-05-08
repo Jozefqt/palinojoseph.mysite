@@ -536,8 +536,12 @@ position: absolute;
   cursor:pointer;
   color: #000000;
 }
-.overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
+.overlay {
+  overflow-y: auto;
+}
+  .overlay a {
+    font-size: 20px;
+  }
   .overlay .closebtn {
   font-size: 30px;
   top: 20px;
@@ -551,7 +555,7 @@ font-size: 20px;
 width: 35px;
 height: 35px;
 line-height: 30px;
-margin: 0 3px;
+margin: 0 8px;
   }
   .footer ul{
     font-size:small;
