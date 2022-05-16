@@ -508,14 +508,17 @@ display: flex;
 }
 .sci li a::before{
   background-color: transparent;
-  pointer-events: none;
+  
 }
 .sci li a:hover::before {
-  pointer-events: none;
+  transform: none;
+  box-shadow:none;
 }
 
 .sci li a:hover {
-pointer-events: none;
+  color: #ffffff;
+  box-shadow: none;
+  text-shadow:none;
 }
 
 
