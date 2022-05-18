@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="aos-by-red.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Webpage</title>
 </head>
@@ -41,10 +43,12 @@
             <span id="year">Year</span>
             </div>
           </div>
-            <h1 class="cover-image cover-text"><span class="highlight">Joseph Gayla<br>Palino Jr. </span>
+          <div class="cover-image">
+            <h1 class="cover-text" data-aos="fade-right" data-aos-duration="1000"><span class="highlight">Joseph Gayla<br>Palino Jr. </span>
                 <br>Computer Science Student</h1>
+          </div>
             <div>
-                <ul class="sci">
+                <ul class="sci" data-aos="slide-left">
                 <li><a href="https://www.facebook.com/yozephnatics.ph"><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/jozefqttt_"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -54,13 +58,13 @@
             </div>
         </section>
         <section id="about">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <h2 class="section-title">About Me</h2>
                 <div class="grid">
-                    <div class="left">
+                    <div class="left" data-aos="fade-up" data-aos-duration="1000">
                 <img src="https://jozefqt.github.io/Jozefqt/Images/about-img.png" alt="me">
             </div>
-                <div class="right">
+                <div class="right" data-aos="fade-up" data-aos-duration="2000">
                 <h4> Hi there!</h4>
                 <h1> I am Joseph!</h1> 
                     <p>Thank you for taking time to look at my personal website! My name is Joseph Palino Jr, but I am usually called by my surname.
@@ -74,10 +78,10 @@
             </div>
         </section>
         <section id="education">
-            <div class="container2 cover-image2">
+            <div class="container2 cover-image2" data-aos="fade-up">
                 <h2 class="section-title2">My Education</h2>
                 <div class="grid2">
-                <div class="left">
+                <div class="left" data-aos="fade-up" data-aos-duration="1000">
                 <h4> Hey there!</h4>
                 <h1> I'm a Computer Science Student</h1>
                 <h3> of North Luzon Philippines State College</h3>
@@ -93,7 +97,7 @@
                             <img src="https://jozefqt.github.io/Jozefqt/Images/comsci-logo.png" alt="me">
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right" data-aos="fade-up" data-aos-duration="2500">
                         <img src="https://jozefqt.github.io/Jozefqt/Images/educ-img.png" alt="me">
                     </div>
                 </div>
@@ -101,6 +105,7 @@
         </section>
         <section id="getintouch">
         <div class="contact-section">
+            <div data-aos="fade-up">
             <h1>Contact Me</h1>
             <div class="border"></div>
             <form class="contact-form" action="https://formsubmit.co/60b1d8cbc53c93527d111ad3dd8c2212" method="POST">
@@ -113,6 +118,7 @@
               <input type="hidden" name="_subject" value="New submission!">
             </form>
           </div>
+        </div>
         </section>
         <section class="footer">
             <div class="social">
@@ -184,6 +190,13 @@
               updateClock();
               window.setInterval("updateClock()",1);
           }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
     </script>
 </body>
 </html>
